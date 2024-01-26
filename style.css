@@ -1,0 +1,631 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Vina+Sans&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: aliceblue;
+    font-family: Inter,sans-serif;
+   
+}
+
+.tudo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    
+}
+.menus{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 0.9rem 2.5rem;
+    gap: 1.25rem;
+    background-color: rgb(18, 18, 18);
+   font-family: Arial, Helvetica, sans-serif;
+   position: sticky;
+   top: 0;
+    z-index: 999;
+}
+
+.fundo{
+    background-color: rgb(18, 18, 18);
+}
+
+.navegar{
+    gap:  1.25rem;
+    color: rgb(71, 75, 75);
+    padding: 0.9rem 2.5rem;
+    text-decoration: none;
+}
+
+.novidades{
+    gap:  1.25rem;
+    color: rgb(71, 75, 75);
+    padding: 0.9rem 0.5rem;
+    text-decoration: none;
+}
+
+.pesquisa{
+    align-items: center;
+    padding-left: 15px;
+    display: flex;
+    width: 230px;
+    border-radius: 24px;
+    background-color:  rgba(0, 0, 0, 0.342);
+    height: 40px;
+    color: aliceblue;
+    
+}
+
+.menu--navegacao{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.9rem 2.5rem;
+}
+
+
+
+h4:link {
+    text-decoration: none;
+}
+
+h4:visited {
+    color: rgb(71, 75, 75);
+
+}
+h4:hover,
+h4:hover {
+    color: aliceblue;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(71, 75, 75);
+}
+
+.gta{
+    width: 800px;
+    height: 450px;
+    border-radius: 3%;
+    object-fit: cover;
+}
+
+.mini-g{
+    width: 64px;
+    height: 96px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.p1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.p2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.p3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.p4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.gta-5{
+    color: aliceblue;
+    font-size: 12px;
+    
+}
+
+.mini-f{
+    width: 64px;
+    height: 96px;
+    border-radius: 4px;
+    object-fit: cover;
+   
+}
+
+.fortnite{
+    color: aliceblue;
+    font-size: 12px;
+
+}
+ 
+.mini-v{
+    width: 64px;
+    height: 96px;
+    border-radius: 4px;
+    object-fit: cover;
+    
+}
+
+ 
+.mini-r{
+    width: 64px;
+    height: 96px;
+    border-radius: 4px;
+    object-fit: cover;
+    
+    }
+
+
+
+.trocar--img{
+margin-top: -50px;
+cursor: pointer;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    gap: 25px;
+}
+
+
+.promocao{
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.precos{
+    display: flex;
+    gap: 35px;
+}
+
+.fifa{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fc24{
+    color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.for{
+    position: relative;
+}
+
+.mine{
+    position: relative;
+}
+
+.ground{
+    position: relative;
+}
+
+.forzan{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.minecraft{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.grounded{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pzinho{
+    font-size: 11px;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Vina Sans', sans-serif;
+    color: rgb(119, 119, 119);
+}
+
+h2{
+    font-size: 16px;
+}
+.desconto{
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.404);
+padding: 5px 10px;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+font-weight: 100px;
+position: absolute;
+border-radius: 9px;
+top: -24px;
+left: -26px;
+}
+
+.desconto3{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 100px;
+    position: absolute;
+    border-radius: 9px;
+    top: -24px;
+    left: -26px;
+    }
+    .desconto4{
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.404);
+        padding: 5px 10px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 100px;
+        position: absolute;
+        border-radius: 9px;
+        top: -24px;
+        left: -26px;
+        }
+
+        .desconto5{
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.404);
+            padding: 5px 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 100px;
+            position: absolute;
+            border-radius: 9px;
+            top: -24px;
+            left: -26px;
+            }
+
+.sumir{
+color: aliceblue;
+
+}
+
+
+.desconto2{
+    text-decoration: line-through;
+}
+span{
+font-size: 14px;
+}
+
+.margem{
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.vendidos{
+    color: aliceblue;
+    font-size: 16px;
+
+}
+button{
+    background-color: #202020;
+    border: color white;
+    color: aliceblue;
+}
+
+.ver{
+    border: 1px solid aliceblue ;
+    display: inline-flex;
+    position: relative;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: transparent;
+    height: 34px;
+    width: auto;
+    font-size: 8px;
+   
+}
+
+.mais{
+    /* justify-content: space-between; */
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px;
+  
+}
+
+.linha{
+    margin-top: 130px;
+    padding-right: 20px;
+    border-right: 0.5px solid #cccccc54;
+    width: fit-content;
+    margin-bottom: 100px;
+}
+
+.imgz{
+    height: 64px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.gta{
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.conteudo{
+    display: flex;
+    padding: 10px;
+}
+
+.lista{
+    padding-left: 20px;
+}
+
+
+.pe{
+    font-size: 12px;
+}
+
+.nome{
+    font-size: 14px;
+}
+
+.tabela{
+    display: flex;
+    gap: 20px;
+}
+
+.linha1{
+    margin-top: 130px;
+    padding-right: 20px;
+    border-right: 0.5px solid #cccccc54;
+    width: fit-content;
+    margin-bottom: 100px;
+}
+
+.linha0{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.espera{
+    color:rgb(52, 54, 54);
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #202020;
+    border-top:none ;
+    padding: 1.25em 4.5em 2.5em;
+    text-size-adjust: 100%;
+    font-family: OpenSans,sans-serif;
+    font-size: 16px;
+}
+.social-media--container {
+    font-size: 1.45rem;
+    transition: color .3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fa-xl:hover {
+    color: #007aff;
+    transition: color .3s ease-in-out;
+}
+.fa-xl{
+    padding-left: 10px;
+}
+span{
+    color: #cccccc7e;
+    font-size: .86em;
+    font-weight: bold;
+}
+.dedicatoria {
+    padding-top: 30px;
+}
+p{
+    font-size: 13px;
+    color: #cccccc;
+}
+
+
+
+
+
+
+.escondido{
+    background-color: #202020;
+    padding: 30px;
+    margin: 0px;
+    font-size: 14px;
+    color:rgb(193, 199, 199);
+    position: absolute;
+    margin: 0px;
+    border-radius: 1rem;
+    /* inset-block-start: 5.5rem;
+    inset-inline: 13rem;
+    padding-block: 1.5rem;
+    padding-inline: 2.5rem; */
+    left: 45px;
+    top: 75px;
+    width: 620px;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+}
+
+.jogar{
+font-size: 20px;
+font-family: "Inter Tight", sans-serif;
+margin: 2px;
+}
+
+.jogar1{
+    font-size: 20px;
+    font-family: "Inter Tight", sans-serif;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    }
+
+.canto{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.icon{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+}
+
+.nome-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.nome-icons1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.tema{
+    display: flex;
+    gap: 40px;
+    background-color: #202020;
+    padding: 30px;
+    margin: 0px;
+    font-size: 14px;
+    color:rgb(193, 199, 199);
+    position: absolute;
+    margin: 0px;
+    border-radius: 1rem;
+    left: 570px;
+    top: 90px;
+    width: 200px;
+    height: 130px;
+    display: none;
+}
+
+.categoria{
+    gap: 20px;
+    display: flex;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #474b4b;
+
+}
+a:hover,
+a:hover {
+    color: aliceblue;
+}
+
+.afastar{
+    padding-left: 40px;
+}
+
+
+.espaco{
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+
+.informacoes{
+    width: 520px;
+    height: 295px;
+    margin-top: 10px;
+}
+
+.l{
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+
+.dividir{
+    display: flex;
+}
+
+.friday{
+    width: 520px;
+    height: 295px;
+    font-size: 20px;
+    padding-top: 43px;
+
+}
+
+.data{
+    font-size: 11px;
+    color: #474b4b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    font-size: 16px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    font-size: 16px;
+    color: #474b4b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ler{
+    font-size: 16px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.black{
+    padding-left: 25px;
+}
+
+.tudinho{
+ display: flex;
+}

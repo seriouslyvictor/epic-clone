@@ -1,0 +1,134 @@
+@media(max-width: 815px){
+    .gta{
+        width: 100%;
+        height: 450px;
+        border-radius: 3%;
+        object-fit: cover;
+    }
+    .navegar{
+        display: none;
+    }
+
+    .novidades{
+        display: none;
+    }
+
+    .usuario{
+        display: none;
+    }
+
+    .tab{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .escondido{
+        width: 300px;
+    }
+
+    .lado1{
+        padding-bottom: 40px;
+    }
+
+
+    .imgs{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .trocar--img{
+        display: flex;
+        gap: 20px;
+    }
+
+    .precos{
+        flex-wrap: wrap;
+    }
+
+    .tabela{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 1000px){
+    .precos{
+        display: block;
+    }
+    .precos div{
+        height: 480px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    .tabela{
+        display: block;
+    }
+    .mais{
+        padding-left: 20px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+
+}
+
+@media(max-width: 530px){
+
+    .pesquisa{display: none;}
+
+    
+    .trocar--img{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .p1{
+        margin-top: 0;
+    }
+    .p2{
+        margin-top: 0;
+    }
+    .p3{
+        margin-top: 0;
+    }
+    .p4{
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width: 425px){
+
+    .trocar--img{
+        align-items: center;
+    }
+
+    .direitos--reservados{
+        font-size: 14px;
+    }
+    
+    .escondido{
+        width: 250px;
+    }
+}
+
+@media(max-width: 375px){
+    .sumir{
+        display: none;
+    }
+    .trocar--img img{
+        width: 48px;
+        height: 64px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 320px){
+    .trocar--img img{
+        width: 30px;
+        height: 50px;
+        object-fit: cover;
+    }
+}

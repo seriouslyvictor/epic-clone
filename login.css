@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.93);}
+
+.login{
+    background-color: #202020;
+    margin: 100px auto;
+    padding: 45px 60px 20px;
+    position: relative;
+    height: 100%;
+    max-width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    align-items: center;
+}
+.fa-ghost{
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+h1{
+    padding-top: 5px;
+    font-size: 1.125rem;
+    font-family: Brutal, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+input{
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 60px;
+    background-color: transparent;
+    border: 0.5px solid rgb(133, 133, 133);; 
+    border-radius: 3px;
+    padding-left: 20px;
+    color: aliceblue;
+
+}
+button{
+    background-color: rgb(0, 110, 255);
+    width: 100%;
+    height: 60px;
+    color: white;
+    border: 0.5px solid rgba(133, 133, 133, 0);
+    border-radius: 3px;
+    cursor: pointer;
+}
+p{
+    color: #FFFFFFB8;
+}
+.icons {
+    color: white;
+
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    
+}
+.fa-brands:hover{
+
+    transition:  .3s ease-in-out;
+
+}
+.politica{
+    font-size: 16px;
+}
+.privacidade{
+    color: white;
+}

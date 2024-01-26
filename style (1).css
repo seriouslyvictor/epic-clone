@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(18, 18, 18);
+    color: aliceblue;
+    font-family: Inter,sans-serif;
+}
+
+.tudo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+    
+}
+.menus{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 0.9rem 2.5rem;
+    gap: 1.25rem;
+    background-color: rgb(18, 18, 18);
+   font-family: Arial, Helvetica, sans-serif;
+   position: sticky;
+   top: 0;
+    z-index: 999;
+}
+
+.navegar{
+    gap:  1.25rem;
+    color: rgb(71, 75, 75);
+    padding: 0.9rem 2.5rem;
+    text-decoration: none;
+}
+
+.novidades{
+    gap:  1.25rem;
+    color: rgb(71, 75, 75);
+    padding: 0.9rem 0.5rem;
+    text-decoration: none;
+}
+
+.pesquisa{
+    align-items: center;
+    padding-left: 15px;
+    display: flex;
+    width: 230px;
+    border-radius: 24px;
+    background-color:  rgba(0, 0, 0, 0.342);
+    height: 40px;
+    color: aliceblue;
+    
+}
+
+.menu--navegacao{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.9rem 2.5rem;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(71, 75, 75);
+
+}
+a:hover,
+a:hover {
+    color: aliceblue;
+}
+
+.gta{
+    width: 800px;
+    height: 450px;
+    border-radius: 3%;
+}
+
+.mini-g{
+    width: 28px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.gta-5{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.mini-f{
+    width: 28px;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.fortnite{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.trocar--img{
+flex-direction: column-reverse
+}
+
+.vendidos{
+    font-size: 18px;
+    
+}
+
+.ver{
+    border: 1px solid aliceblue ;
+    display: inline-flex;
+    position: relative;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: transparent;
+    height: 34px;
+    width: auto;
+    font-size: 8px;
+   
+}
+
+.mais{
+    /* justify-content: space-between; */
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px;
+}
+
+.imgz{
+    height: 64px;
+    width: 48px;
+    object-fit: cover;
+}
+
+li {
+    padding: 0px 16px;
+    list-style: none;
+}
+
+.conteudo{
+    grid-template-columns: 1fr 1fr;
+}
+
